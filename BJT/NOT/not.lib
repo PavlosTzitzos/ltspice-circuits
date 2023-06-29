@@ -1,0 +1,26 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\BJT\NOT\not.asc
+* NOT
+* 1 In
+* 2 Out
+* 3 Vdd
+* 4 Vss
+*
+.subckt not 1 2 3 4
+Q1 2 N001 4 0 NPN
+R1 N001 1 {Rb}
+R2 3 2 {R}
+C1 2 4 {C}
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\pavlos\AppData\Local\LTspice\lib\cmp\standard.bjt
+.param R=470
+.param Rb=2.7k
+.param C=1n
+.backanno
+.ends not
+
+
+
+
+
+
