@@ -1,0 +1,18 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\OR_2\or.asc
+*
+* OR 2 inputs
+* 1 A
+* 2 B
+* 3 Y
+* 4 Vdd
+* 5 Vss
+*
+.subckt or 1 2 3 4 5
+XU2 N001 3 4 5 not
+C1 N001 5 1p
+XU3 1 2 N001 4 5 nor
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NOR_2\nor.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NOT_CMOS\not.lib
+.backanno
+.ends or
+
