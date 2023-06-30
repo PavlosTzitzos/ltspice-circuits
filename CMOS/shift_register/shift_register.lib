@@ -1,0 +1,18 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\shift_register\shift_register.asc
+*
+* posedge shift register made from D FF
+* 1 Serial_In
+* 2 Clk
+* 3 Serial_Out
+* 4 Vdd
+* 5 Vss
+*
+.subckt shft_reg 1 2 3 4 5
+XU1 1 2 N001 NC_01 4 5 dff_p
+XU2 N001 2 N002 NC_02 4 5 dff_p
+XU3 N002 2 N003 NC_03 4 5 dff_p
+XU4 N003 2 3 NC_04 4 5 dff_p
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\DFF_posedge\dff_p.lib
+.backanno
+.ends shft_reg
+
