@@ -1,0 +1,26 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\BJT\AND_2\and.asc
+*
+* AND 2 inputs
+* 1 A
+* 2 B
+* 3 Y
+* 4 Vdd
+* 5 Vss
+*
+.subckt and 1 2 3 4 5
+Q1 N001 N002 N003 0 NPN
+Q2 N003 N004 5 0 NPN
+R1 4 N001 {R}
+R2 N002 1 {Rb}
+R3 N004 2 {Rb}
+C1 3 5 {C}
+Q3 3 N001 5 0 NPN
+R5 4 3 {R}
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\pavlos\AppData\Local\LTspice\lib\cmp\standard.bjt
+.param R=470
+.param Rb=2.7k
+.param C=1n
+.backanno
+.ends and
