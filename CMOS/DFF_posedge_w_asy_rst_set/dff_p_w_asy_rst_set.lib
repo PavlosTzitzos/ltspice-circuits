@@ -1,0 +1,31 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\DFF_posedge_w_asy_rst_set\dff_p_w_asy_rst_set.asc
+*
+* posedge D FF 2 inputs
+* 1 D
+* 2 Clk
+* 3 _rst
+* 4 _set
+* 5 Q
+* 6 _Q
+* 7 Vdd
+* 8 Vss
+* 
+.subckt dff_p_w_asy_set_rst 1 2 3 4 5 6 7 8
+XU8 N003 2 N001 N004 7 8 nand3
+C1 1 8 {C}
+C2 2 8 {C}
+C3 5 8 {C}
+C4 6 8 {C}
+XU1 N002 3 2 N003 7 8 nand3
+XU2 5 3 N004 6 7 8 nand3
+XU9 N004 3 1 N001 7 8 nand3
+XU3 N001 4 N003 N002 7 8 nand3
+XU4 N003 4 6 5 7 8 nand3
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NAND_3\nand3.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NAND_2\nand.lib
+.param C 0.1p
+.backanno
+.ends dff_p_w_asy_set_rst
+
+
+
