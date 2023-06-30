@@ -1,0 +1,17 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\SR_NAND\sr_nand.asc
+*
+* SR_NAND 2 inputs
+* 1 S
+* 2 R
+* 3 Q
+* 4 ~Q
+* 5 Vdd
+* 6 Vss
+*
+.subckt sr_nand 1 2 3 4 5 6
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\SR_NAND\nand.asc
+XU1 1 4 3 5 6 nand
+XU2 3 2 4 5 6 nand
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NAND_2\nand.lib
+.backanno
+.ends sr_nand
