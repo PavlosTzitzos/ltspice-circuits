@@ -1,0 +1,26 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\4x2_priority_encoder\4x2_p.asc
+*
+* 4 to 2 priority encoder
+* 1 D0
+* 2 D1
+* 3 D2
+* 4 D3
+* 5 O0
+* 6 O1
+* 7 V
+* 8 Vdd
+* 9 Vss
+*
+.subckt 4x2_p 1 2 3 4 5 6 7 8 9
+XU8 4 N001 5 8 9 or
+XU1 3 N002 8 9 not
+XU2 N002 1 N001 8 9 and
+XU3 4 3 6 8 9 or
+XU4 6 2 1 7 8 9 or3
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\OR_2\or.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\OR_3\or3.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\AND_2\and.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NOT_CMOS\not.lib
+.backanno
+.ends 4x2_p
+
