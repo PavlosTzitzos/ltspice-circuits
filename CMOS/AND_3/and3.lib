@@ -1,0 +1,18 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\AND_3\and3.asc
+*
+* AND 3 inputs
+* 1 A
+* 2 B
+* 3 C
+* 4 Y
+* 5 Vdd
+* 6 Vss
+*
+.subckt and3 1 2 3 4 5 6
+XU2 N001 4 5 6 not
+C1 N001 6 1p
+XU3 1 2 3 N001 5 6 nand3
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NAND_3\nand3.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NOT_CMOS\not.lib
+.backanno
+.ends and3
