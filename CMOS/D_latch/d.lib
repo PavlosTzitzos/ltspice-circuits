@@ -1,0 +1,27 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\D\D.asc
+*
+* D FF 2 inputs
+* 1 D
+* 2 EN
+* 3 Q
+* 4 ~Q
+* 5 Vdd
+* 6 Vss
+*
+.subckt d 1 2 3 4 5 6
+XU1 N001 4 3 5 6 nand
+XU2 3 N002 4 5 6 nand
+XU4 1 2 N001 5 6 nand
+XU5 2 N003 N002 5 6 nand
+XU6 1 N003 5 6 not
+C1 0 1 {C}
+C2 0 2 {C}
+C3 0 3 {C}
+C4 4 0 {C}
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NAND_2\nand.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NOT_CMOS\not.lib
+.param C 1f
+.backanno
+.ends d
+
+
