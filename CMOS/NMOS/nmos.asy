@@ -5,6 +5,8 @@ LINE Normal 32 16 16 16
 LINE Normal 16 -16 32 -16
 LINE Normal 11 16 11 -16
 LINE Normal 11 0 0 0
+LINE Normal 48 0 32 0
+LINE Normal 48 16 48 0
 PIN 0 0 NONE 8
 PINATTR PinName G
 PINATTR SpiceOrder 1
@@ -14,3 +16,6 @@ PINATTR SpiceOrder 2
 PIN 32 16 NONE 8
 PINATTR PinName S
 PINATTR SpiceOrder 3
+PIN 48 16 NONE 8
+PINATTR PinName Vss
+PINATTR SpiceOrder 4
