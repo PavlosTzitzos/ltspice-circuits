@@ -1,0 +1,24 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\BJT\NAND_2\nand.asc
+*
+* NAND 2 inputs
+* 1 A
+* 2 B
+* 3 Y
+* 4 Vdd
+* 5 Vss
+*
+.subckt nand 1 2 3 4 5
+Q1 3 N001 N002 0 NPN
+Q2 N002 N003 5 0 NPN
+R1 4 3 {R}
+R2 N001 1 {Rb}
+R3 N003 2 {Rb}
+C1 3 5 {C}
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\pavlos\AppData\Local\LTspice\lib\cmp\standard.bjt
+.param R=470
+.param Rb=2.7k
+.param C=1n
+.backanno
+.ends nand
