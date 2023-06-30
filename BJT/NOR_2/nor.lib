@@ -1,0 +1,25 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\BJT\NOR_2\nor.asc
+* 
+* NOR 2 inputs
+* 1 A
+* 2 B
+* 3 Y
+* 4 Vdd
+* 5 Vss
+* 
+.subckt nor 1 2 3 4 5
+Q1 3 N001 5 0 NPN
+Q2 3 N002 5 0 NPN
+R1 4 3 {R}
+R2 N001 1 {Rb1}
+R3 N002 2 {Rb2}
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\pavlos\AppData\Local\LTspice\lib\cmp\standard.bjt
+.param R=470
+.param Rb1=10k
+.param Rb2=2.7k
+.backanno
+.ends nor
+
+
