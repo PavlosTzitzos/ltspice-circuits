@@ -1,0 +1,23 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NOR_3\nor3.asc
+* 
+* NOR 3 inputs
+* 1 A
+* 2 B
+* 3 C
+* 4 Y
+* 5 Vdd
+* 6 Vss
+* 
+.subckt nor3 1 2 3 4 5 6
+XM1 2 N001 N002 pmos
+XM2 1 4 6 nmos
+XM3 3 N002 4 pmos
+XM4 2 4 6 nmos
+XM5 1 5 N001 pmos
+XM6 3 4 6 nmos
+
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\PMOS\pmos.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NMOS\nmos.lib
+
+.backanno
+.ends nor3
