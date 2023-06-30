@@ -15,8 +15,8 @@ PIN 48 0 NONE 8
 PINATTR PinName out
 PINATTR SpiceOrder 2
 PIN 16 -16 NONE 8
-PINATTR PinName $G_Vdd
+PINATTR PinName Vdd
 PINATTR SpiceOrder 3
 PIN 16 16 NONE 8
-PINATTR PinName $G_Vss
+PINATTR PinName Vss
 PINATTR SpiceOrder 4
