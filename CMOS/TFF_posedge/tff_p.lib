@@ -1,0 +1,15 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\TFF_posedge\TFF_p.asc
+* 
+* posedge T FF 2 inputs
+* 1 T
+* 2 Clk
+* 3 Q
+* 4 ~Q
+* 5 Vdd
+* 6 Vss
+*
+.subckt tff_p 1 2 3 4 5 6
+XX1 1 1 2 3 4 5 6 jkff_p
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\JKFF_posedge\jkff_p.lib
+.backanno
+.ends tff_p
