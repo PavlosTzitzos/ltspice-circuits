@@ -1,0 +1,25 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\2x4_decoder\2x4.asc
+*
+* 2 to 4 decoder
+* 1 A
+* 2 B
+* 3 EN
+* 4 D0
+* 5 D1
+* 6 D2
+* 7 D3
+* 8 Vdd
+* 9 Vss
+*
+.subckt 2x4 1 2 3 4 5 6 7 8 9
+XU1 1 N001 8 9 not
+XU2 2 N002 8 9 not
+XU3 3 N003 8 9 not
+XU4 N001 N002 N003 4 8 9 nand3
+XU5 N001 2 N003 5 8 9 nand3
+XU6 1 N002 N003 6 8 9 nand3
+XU7 1 2 N003 7 8 9 nand3
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NAND_3\nand3.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NOT_CMOS\not.lib
+.backanno
+.ends 2x4
