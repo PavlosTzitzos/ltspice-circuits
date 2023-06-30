@@ -1,0 +1,38 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\counter 8-bit\counter_8_bit.asc
+* 
+* 8 bit binary counter with T F/F
+* 
+* 1 start
+* 2 clk
+* 3 a0
+* 4 a1
+* 5 a2
+* 6 a3
+* 7 a4
+* 8 a5
+* 9 a6
+* 10 a7
+* 11 Vdd
+* 12 Vss
+* 
+
+.subckt counter_8_bit 1 2 3 4 5 6 7 8 9 10 11 12
+XU1 N007 2 10 NC_01 11 12 tff_p
+XU2 N006 2 9 NC_02 11 12 tff_p
+XU3 N005 2 8 NC_03 11 12 tff_p
+XU4 N004 2 7 NC_04 11 12 tff_p
+XU5 N003 2 6 NC_05 11 12 tff_p
+XU6 N002 2 5 NC_06 11 12 tff_p
+XU7 N001 2 4 NC_07 11 12 tff_p
+XU8 1 2 3 NC_08 11 12 tff_p
+XU9 3 1 N001 11 12 and
+XU10 4 N001 N002 11 12 and
+XU11 5 N002 N003 11 12 and
+XU12 6 N003 N004 11 12 and
+XU13 7 N004 N005 11 12 and
+XU14 8 N005 N006 11 12 and
+XU15 9 N006 N007 11 12 and
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\TFF_posedge\Tff_p.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\AND_2\and.lib
+.backanno
+.ends counter_8_bit
