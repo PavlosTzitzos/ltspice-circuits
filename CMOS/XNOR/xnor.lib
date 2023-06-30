@@ -1,0 +1,16 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\XNOR\xnor.asc
+*
+* XNOR 2 inputs
+* 1 A
+* 2 B
+* 3 Y
+* 4 Vdd
+* 5 Vss
+*
+.subckt xnor 1 2 3 4 5
+XU2 N001 3 4 5 not
+XU1 1 2 N001 4 5 xor
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\XOR\xor.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NOT_CMOS\not.lib
+.backanno
+.ends xnor
