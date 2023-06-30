@@ -1,0 +1,22 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NAND_3\nand3.asc
+*
+* NAND 2 inputs
+* 1 A
+* 2 B
+* 3 C
+* 4 Y
+* 5 Vdd
+* 6 Vss
+*
+.subckt nand3 1 2 3 4 5 6
+XM1 1 5 4 pmos
+XM2 1 4 N001 nmos
+XM3 2 5 4 pmos
+XM4 2 N001 N002 nmos
+XM5 3 N002 6 nmos
+XM6 3 5 4 pmos
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\PMOS\pmos.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NMOS\nmos.lib
+.backanno
+.ends nand3
+
