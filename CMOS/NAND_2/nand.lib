@@ -1,0 +1,19 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NAND_CMOS\nand.asc
+*
+* NAND 2 inputs
+* 1 A
+* 2 B
+* 3 Y
+* 4 Vdd
+* 5 Vss
+*
+.subckt nand 1 2 3 4 5
+XM1 1 4 3 pmos
+XM2 1 3 N001 nmos
+XM3 2 4 3 pmos
+XM4 2 N001 5 nmos
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\PMOS\pmos.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NMOS\nmos.lib
+.backanno
+.ends nand
+
