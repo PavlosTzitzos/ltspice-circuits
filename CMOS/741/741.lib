@@ -1,0 +1,49 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\741\741.asc
+* Opamp 741 internals
+* 1 OFFSET NULL
+* 2 INVERTING INPUT
+* 3 NON-INVERTING INPUT
+* 4 V-
+* 5 OFFSET NULL
+* 6 OUTPUT
+* 7 V+
+* 
+
+.subckt 741 1 2 3 4 5 6 7
+R1 1 4 1k
+R2 5 4 1k
+R3 N014 4 50k
+R4 N017 4 5k
+R5 N002 N012 39k
+C1 N003 N011 30pF
+R7 N003 N004 4.5k
+R8 N009 N004 7.5k
+R9 N005 6 25
+R10 6 N015 50
+R11 N016 4 50
+R12 N013 4 50k
+XU1 N001 7 N008 pmos
+XU2 3 N001 N006 nmos
+XU3 N014 N011 5 nmos
+XU4 N010 7 N014 nmos
+XU5 N012 N012 4 nmos
+XU6 N011 N009 N013 nmos
+XU7 N013 N009 N016 nmos
+XU8 N003 7 N005 nmos
+XU9 N004 N003 N009 nmos
+XU10 N002 7 N003 pmos
+XU11 N009 N015 4 pmos
+XU12 N008 N007 N011 pmos
+XU14 N014 N010 1 nmos
+XU15 2 N001 N007 nmos
+XU16 N012 N008 N017 nmos
+XU17 N016 N011 4 nmos
+XU18 N005 N003 6 nmos
+XU13 N008 N006 N010 pmos
+XU19 N002 7 N002 pmos
+XU20 N001 7 N001 pmos
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\PMOS\pmos.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NMOS\nmos.lib
+.backanno
+.ends 741
+
