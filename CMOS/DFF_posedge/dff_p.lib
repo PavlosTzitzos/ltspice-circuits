@@ -1,0 +1,26 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\DFF_posedge\DFF_p.asc
+*
+* posedge D FF 2 inputs
+* 1 D
+* 2 Clk
+* 3 Q
+* 4 ~Q
+* 5 Vdd
+* 6 Vss
+*
+.subckt dff_p 1 2 3 4 5 6
+XU3 N003 4 3 5 6 nand
+XU4 3 N004 4 5 6 nand
+XU5 N001 N003 N002 5 6 nand
+XU6 N002 2 N003 5 6 nand
+XU7 N004 1 N001 5 6 nand
+XU8 N003 2 N001 N004 5 6 nand3
+C1 1 6 {C}
+C2 2 6 {C}
+C3 3 6 {C}
+C4 4 6 {C}
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NAND_3\nand3.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\NAND_2\nand.lib
+.param C 0.1p
+.backanno
+.ends dff_p
