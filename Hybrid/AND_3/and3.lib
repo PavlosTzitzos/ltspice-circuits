@@ -1,0 +1,21 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\AND_3\and3.asc
+*
+* AND 3 inputs
+* 1 A
+* 2 B
+* 3 C
+* 4 Y
+* 
+
+.subckt and3 1 2 3 4
+XX1 4 1 memristor
+XX2 4 2 memristor
+XX3 4 3 memristor
+C1 1 0 {C}
+C2 2 0 {C}
+C3 3 0 {C}
+C4 4 0 {C}
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\memristor\memristor.lib
+.param C 100p
+.backanno
+.ends and3
