@@ -1,0 +1,17 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\OR_2\or.asc
+*
+* OR 2 inputs
+* 1 A
+* 2 B
+* 3 Y
+*
+.subckt or 1 2 3
+XX1 1 3 memristor
+XX2 2 3 memristor
+C1 1 0 {C}
+C2 2 0 {C}
+C3 3 0 {C}
+.param C 10p
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\memristor\memristor.lib
+.backanno
+.ends or

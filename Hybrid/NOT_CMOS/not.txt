@@ -1,0 +1,22 @@
+* C:\Users\pavlos\AppData\Local\LTspice\local\my\schematics\CMOS\NOT_CMOS\not.asc
+* NOT
+* 1 In
+* 2 Out
+* 3 Vdd
+* 4 Vss
+*
+.subckt not 1 2 3 4
+XU1 1 3 2 pmos
+XU2 1 2 4 nmos
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\pavlos\AppData\Local\LTspice\local\my\schematics\CMOS\PMOS\pmos.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\local\my\schematics\CMOS\NMOS\nmos.lib
+.backanno
+.ends not
+
+
+
+
+
+

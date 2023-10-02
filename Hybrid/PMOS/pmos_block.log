@@ -1,0 +1,22 @@
+Circuit: * C:\Users\pavlos\AppData\Local\LTspice\my\schematics\CMOS\PMOS\pmos_block.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun Jun 11 01:44:07 2023
+Total elapsed time: 0.090 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 838
+traniter = 833
+tranpoints = 410
+accept = 374
+rejected = 36
+matrix size = 5
+fillins = 0
+solver = Normal
+Avg thread counts: 1.4/1.7/1.7/1.4
+Matrix Compiler1:       8 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2:      26 opcodes  0.1/[0.1]/0.1
+

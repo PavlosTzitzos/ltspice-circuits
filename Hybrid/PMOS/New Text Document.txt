@@ -1,0 +1,16 @@
+* C:\Users\pavlos\AppData\Local\LTspice\local\my\schematics\CMOS\PMOS\pmos.asc
+* PMOS
+* 1 G
+* 2 D
+* 3 S
+* 
+.subckt pmos 1 2 3
+M1 3 1 2 2 PMOS
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\pavlos\AppData\Local\LTspice\lib\cmp\standard.mos
+.backanno
+.ends pmos
+
+
+

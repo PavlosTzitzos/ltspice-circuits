@@ -1,0 +1,19 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\XOR\xor.asc
+*
+* XOR 2 inputs
+* 1 A
+* 2 B
+* 3 Y
+* 4 Vdd
+* 5 Vss
+*
+.subckt xor 1 2 3 4 5
+XU1 1 N002 4 5 not
+XU2 2 N004 4 5 not
+XU3 2 N002 N001 4 5 nand
+XU4 1 N004 N003 4 5 nand
+XU5 N001 N003 3 4 5 nand
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\NAND_2\nand.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\NOT_CMOS\not.lib
+.backanno
+.ends xor
