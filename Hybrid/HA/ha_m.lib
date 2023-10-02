@@ -1,0 +1,17 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\HA_memristor\ha_m.asc
+*
+* Half Adder
+* 1 x
+* 2 y
+* 3 S
+* 4 C
+* 5 Vdd
+* 6 Vss
+*
+.subckt ha_m 1 2 3 4 5 6
+XU1 1 2 4 and
+XU2 1 2 3 5 6 xor
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\AND_2\and.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\XOR\xor.lib
+.ends ha_m
+

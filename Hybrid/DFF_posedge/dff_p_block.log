@@ -1,0 +1,128 @@
+Circuit: * C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\DFF_posedge\dff_p_block.asc
+
+Questionable use of curly braces in "bpm 1 2  i={(v(1)-v(2))/(({{fo}}*exp(2*({lo}-{lo}*{m}/(v(r)))))/({lo}-{lo}*{m}/(v(r))))}"
+    Error: undefined symbol in: "([v](1)-v(2))/((((fo))*exp(2*((lo)-(lo)*(m)/(v(r)))))/((lo)-(lo)*(m)/(v(r))))"
+Questionable use of curly braces in "br 0 r  i={(-{alpha}*(((v(1)-v(2))-{vtl})/({gamma}+abs((v(1)-v(2))-{vtl})))*u(-(v(1)-v(2))+{vtl})-{beta}*(v(1)-v(2))*u((v(1)-v(2))-{vtl})*u(-(v(1)-v(2))+{vtr})-{alpha}*(((v(1)-v(2))-{vtr})/({gamma}+abs((v(1)-v(2))-{vtr})))*u((v(1)-v(2))-{vtr}))*(u(v(1)-v(2))*u(v(r)-{{rmin}})+u(-(v(1)-v(2)))*u({{rmax}}-v(r)))}"
+    Error: undefined symbol in: "(-(alpha)*((([v](1)-v(2))-(vtl))/((gamma)+abs((v(1)-v(2))-(vtl))))*u(-(v(1)-v(2))+(vtl))-(beta)*(v(1)-v(2))*u((v(1)-v(2))-(vtl))*u(-(v(1)-v(2))+(vtr))-(alpha)*(((v(1)-v(2))-(vtr))/((gamma)+abs((v(1)-v(2))-(vtr))))*u((v(1)-v(2))-(vtr)))*(u(v(1)-v(2))*u(v(r)-((rmin)))+u(-(v(1)-v(2)))*u(((rmax))-v(r)))"
+Questionable use of curly braces in "bpm 1 2  i={(v(1)-v(2))/(({{fo}}*exp(2*({lo}-{lo}*{m}/(v(r)))))/({lo}-{lo}*{m}/(v(r))))}"
+    Error: undefined symbol in: "([v](1)-v(2))/((((fo))*exp(2*((lo)-(lo)*(m)/(v(r)))))/((lo)-(lo)*(m)/(v(r))))"
+Questionable use of curly braces in "br 0 r  i={(-{alpha}*(((v(1)-v(2))-{vtl})/({gamma}+abs((v(1)-v(2))-{vtl})))*u(-(v(1)-v(2))+{vtl})-{beta}*(v(1)-v(2))*u((v(1)-v(2))-{vtl})*u(-(v(1)-v(2))+{vtr})-{alpha}*(((v(1)-v(2))-{vtr})/({gamma}+abs((v(1)-v(2))-{vtr})))*u((v(1)-v(2))-{vtr}))*(u(v(1)-v(2))*u(v(r)-{{rmin}})+u(-(v(1)-v(2)))*u({{rmax}}-v(r)))}"
+    Error: undefined symbol in: "(-(alpha)*((([v](1)-v(2))-(vtl))/((gamma)+abs((v(1)-v(2))-(vtl))))*u(-(v(1)-v(2))+(vtl))-(beta)*(v(1)-v(2))*u((v(1)-v(2))-(vtl))*u(-(v(1)-v(2))+(vtr))-(alpha)*(((v(1)-v(2))-(vtr))/((gamma)+abs((v(1)-v(2))-(vtr))))*u((v(1)-v(2))-(vtr)))*(u(v(1)-v(2))*u(v(r)-((rmin)))+u(-(v(1)-v(2)))*u(((rmax))-v(r)))"
+Questionable use of curly braces in "bpm 1 2  i={(v(1)-v(2))/(({{fo}}*exp(2*({lo}-{lo}*{m}/(v(r)))))/({lo}-{lo}*{m}/(v(r))))}"
+    Error: undefined symbol in: "([v](1)-v(2))/((((fo))*exp(2*((lo)-(lo)*(m)/(v(r)))))/((lo)-(lo)*(m)/(v(r))))"
+Questionable use of curly braces in "br 0 r  i={(-{alpha}*(((v(1)-v(2))-{vtl})/({gamma}+abs((v(1)-v(2))-{vtl})))*u(-(v(1)-v(2))+{vtl})-{beta}*(v(1)-v(2))*u((v(1)-v(2))-{vtl})*u(-(v(1)-v(2))+{vtr})-{alpha}*(((v(1)-v(2))-{vtr})/({gamma}+abs((v(1)-v(2))-{vtr})))*u((v(1)-v(2))-{vtr}))*(u(v(1)-v(2))*u(v(r)-{{rmin}})+u(-(v(1)-v(2)))*u({{rmax}}-v(r)))}"
+    Error: undefined symbol in: "(-(alpha)*((([v](1)-v(2))-(vtl))/((gamma)+abs((v(1)-v(2))-(vtl))))*u(-(v(1)-v(2))+(vtl))-(beta)*(v(1)-v(2))*u((v(1)-v(2))-(vtl))*u(-(v(1)-v(2))+(vtr))-(alpha)*(((v(1)-v(2))-(vtr))/((gamma)+abs((v(1)-v(2))-(vtr))))*u((v(1)-v(2))-(vtr)))*(u(v(1)-v(2))*u(v(r)-((rmin)))+u(-(v(1)-v(2)))*u(((rmax))-v(r)))"
+Questionable use of curly braces in "bpm 1 2  i={(v(1)-v(2))/(({{fo}}*exp(2*({lo}-{lo}*{m}/(v(r)))))/({lo}-{lo}*{m}/(v(r))))}"
+    Error: undefined symbol in: "([v](1)-v(2))/((((fo))*exp(2*((lo)-(lo)*(m)/(v(r)))))/((lo)-(lo)*(m)/(v(r))))"
+Questionable use of curly braces in "br 0 r  i={(-{alpha}*(((v(1)-v(2))-{vtl})/({gamma}+abs((v(1)-v(2))-{vtl})))*u(-(v(1)-v(2))+{vtl})-{beta}*(v(1)-v(2))*u((v(1)-v(2))-{vtl})*u(-(v(1)-v(2))+{vtr})-{alpha}*(((v(1)-v(2))-{vtr})/({gamma}+abs((v(1)-v(2))-{vtr})))*u((v(1)-v(2))-{vtr}))*(u(v(1)-v(2))*u(v(r)-{{rmin}})+u(-(v(1)-v(2)))*u({{rmax}}-v(r)))}"
+    Error: undefined symbol in: "(-(alpha)*((([v](1)-v(2))-(vtl))/((gamma)+abs((v(1)-v(2))-(vtl))))*u(-(v(1)-v(2))+(vtl))-(beta)*(v(1)-v(2))*u((v(1)-v(2))-(vtl))*u(-(v(1)-v(2))+(vtr))-(alpha)*(((v(1)-v(2))-(vtr))/((gamma)+abs((v(1)-v(2))-(vtr))))*u((v(1)-v(2))-(vtr)))*(u(v(1)-v(2))*u(v(r)-((rmin)))+u(-(v(1)-v(2)))*u(((rmax))-v(r)))"
+Questionable use of curly braces in "bpm 1 2  i={(v(1)-v(2))/(({{fo}}*exp(2*({lo}-{lo}*{m}/(v(r)))))/({lo}-{lo}*{m}/(v(r))))}"
+    Error: undefined symbol in: "([v](1)-v(2))/((((fo))*exp(2*((lo)-(lo)*(m)/(v(r)))))/((lo)-(lo)*(m)/(v(r))))"
+Questionable use of curly braces in "br 0 r  i={(-{alpha}*(((v(1)-v(2))-{vtl})/({gamma}+abs((v(1)-v(2))-{vtl})))*u(-(v(1)-v(2))+{vtl})-{beta}*(v(1)-v(2))*u((v(1)-v(2))-{vtl})*u(-(v(1)-v(2))+{vtr})-{alpha}*(((v(1)-v(2))-{vtr})/({gamma}+abs((v(1)-v(2))-{vtr})))*u((v(1)-v(2))-{vtr}))*(u(v(1)-v(2))*u(v(r)-{{rmin}})+u(-(v(1)-v(2)))*u({{rmax}}-v(r)))}"
+    Error: undefined symbol in: "(-(alpha)*((([v](1)-v(2))-(vtl))/((gamma)+abs((v(1)-v(2))-(vtl))))*u(-(v(1)-v(2))+(vtl))-(beta)*(v(1)-v(2))*u((v(1)-v(2))-(vtl))*u(-(v(1)-v(2))+(vtr))-(alpha)*(((v(1)-v(2))-(vtr))/((gamma)+abs((v(1)-v(2))-(vtr))))*u((v(1)-v(2))-(vtr)))*(u(v(1)-v(2))*u(v(r)-((rmin)))+u(-(v(1)-v(2)))*u(((rmax))-v(r)))"
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(x1:1)
+Ignoring empty pin current: Ix(x1:2)
+Ignoring empty pin current: Ix(x2:1)
+Ignoring empty pin current: Ix(x2:2)
+Ignoring empty pin current: Ix(x3:1)
+Ignoring empty pin current: Ix(x3:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:3)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:3)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u3:3)
+Ignoring empty pin current: Ix(u3:4)
+Ignoring empty pin current: Ix(u3:5)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u4:3)
+Ignoring empty pin current: Ix(u4:4)
+Ignoring empty pin current: Ix(u4:5)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u5:3)
+Ignoring empty pin current: Ix(u5:4)
+Ignoring empty pin current: Ix(u5:5)
+Ignoring empty pin current: Ix(u6:1)
+Ignoring empty pin current: Ix(u6:2)
+Ignoring empty pin current: Ix(u6:3)
+Ignoring empty pin current: Ix(u6:4)
+Ignoring empty pin current: Ix(u6:5)
+Ignoring empty pin current: Ix(u7:1)
+Ignoring empty pin current: Ix(u7:2)
+Ignoring empty pin current: Ix(u7:3)
+Ignoring empty pin current: Ix(u7:4)
+Ignoring empty pin current: Ix(u7:5)
+Ignoring empty pin current: Ix(u8:1)
+Ignoring empty pin current: Ix(u8:2)
+Ignoring empty pin current: Ix(u8:3)
+Ignoring empty pin current: Ix(u8:4)
+Ignoring empty pin current: Ix(u8:5)
+Ignoring empty pin current: Ix(u8:6)
+Ignoring empty pin current: Ix(x1:1)
+Ignoring empty pin current: Ix(x1:2)
+Ignoring empty pin current: Ix(x2:1)
+Ignoring empty pin current: Ix(x2:2)
+Ignoring empty pin current: Ix(x3:1)
+Ignoring empty pin current: Ix(x3:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:3)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:3)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u3:3)
+Ignoring empty pin current: Ix(u3:4)
+Ignoring empty pin current: Ix(u3:5)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u4:3)
+Ignoring empty pin current: Ix(u4:4)
+Ignoring empty pin current: Ix(u4:5)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u5:3)
+Ignoring empty pin current: Ix(u5:4)
+Ignoring empty pin current: Ix(u5:5)
+Ignoring empty pin current: Ix(u6:1)
+Ignoring empty pin current: Ix(u6:2)
+Ignoring empty pin current: Ix(u6:3)
+Ignoring empty pin current: Ix(u6:4)
+Ignoring empty pin current: Ix(u6:5)
+Ignoring empty pin current: Ix(u7:1)
+Ignoring empty pin current: Ix(u7:2)
+Ignoring empty pin current: Ix(u7:3)
+Ignoring empty pin current: Ix(u7:4)
+Ignoring empty pin current: Ix(u7:5)
+Ignoring empty pin current: Ix(u8:1)
+Ignoring empty pin current: Ix(u8:2)
+Ignoring empty pin current: Ix(u8:3)
+Ignoring empty pin current: Ix(u8:4)
+Ignoring empty pin current: Ix(u8:5)
+Ignoring empty pin current: Ix(u8:6)
+
+Date: Tue Jun 20 14:07:56 2023
+Total elapsed time: 1.936 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 8109
+traniter = 8103
+tranpoints = 3631
+accept = 3238
+rejected = 393
+matrix size = 31
+fillins = 12
+solver = Normal
+Avg thread counts: 3.0/1.3/1.4/1.2
+Matrix Compiler1: 3.27 KB object code size  1.0/0.9/[0.3]
+Matrix Compiler2: 3.34 KB object code size  0.8/1.2/[0.3]
+

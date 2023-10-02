@@ -1,0 +1,18 @@
+* C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\NAND_3\nand3.asc
+*
+* NAND 3 inputs
+* 1 A
+* 2 B
+* 3 C
+* 4 Y
+* 5 Vdd
+* 6 Vss
+*
+.subckt nand3 1 2 3 4 5 6
+XU1 1 2 3 N001 and3
+XU2 N001 4 5 6 not
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\AND_3\and3.lib
+.lib C:\Users\pavlos\AppData\Local\LTspice\my\schematics\Hybrid\NOT_CMOS\not.lib
+.backanno
+.ends nand3
+
